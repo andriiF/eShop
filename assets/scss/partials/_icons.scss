@@ -1,0 +1,24 @@
+.icon {
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+    height:  24px;
+    background-position: center;
+    background-size: cover;
+}
+.icon-search {
+    background-image: url('../images/icons/search.svg');
+}
+
+.icon-cart{
+    background-image: url('../images/icons/cart.svg'); 
+    &.icon-revert {
+        background-image: url('../images/icons/cart_1.svg'); 
+    }
+}
+.icon-heart{
+    background-image: url('../images/icons/heart.svg'); 
+}
+.icon-trash{
+    background-image: url('../images/icons/trash.png'); 
+}
